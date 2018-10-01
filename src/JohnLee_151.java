@@ -27,4 +27,4 @@ public class JohnLee_151
 			
 		
 	}
-}
+} //THIS IS WRONG, FIND SUM OF NEGATIVE NUMBERS
