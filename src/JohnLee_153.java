@@ -1,7 +1,6 @@
 import java.util.* ;
 
-public class JohnLee_152 
-
+public class JohnLee_153 
 {
 	public static void main(String[] args) 
 	{
@@ -13,20 +12,15 @@ public class JohnLee_152
 		
 		while (element != 0)
 		{
-			element = inp.nextInt();
+			element = inp.nextInt() ;
 			
-			if (element %2 == 0)
+			if (number > element)
 			{
-				number ++;
-				sum = sum + element;
+				number = element;
+				sum ++;
 			}
-			else 
-				number += 0;
-				sum += 0;
 			
 		}
-	
-		System.out.println(sum/number);	
-		
+		System.out.println(sum);
 	}
-}
+} //INCOMPLETE

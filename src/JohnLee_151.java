@@ -16,7 +16,7 @@ public class JohnLee_151
 			
 			if (element < 0)
 			{
-				number ++; // number += 1 works as well, number after = is the amount being added on	
+				number = number + element; // number += 1 works as well, number after = is the amount being added on	
 			}
 			else
 				number += 0;
@@ -27,4 +27,4 @@ public class JohnLee_151
 			
 		
 	}
-} //THIS IS WRONG, FIND SUM OF NEGATIVE NUMBERS
+} 
