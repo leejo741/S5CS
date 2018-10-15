@@ -30,7 +30,7 @@ public class JohnLee_A14
 				
 				
 			}
-		System.out.println("\n" +  totalcount);
+		System.out.println("\n" +  totalcount); //yay
 		
 		}
 		

@@ -11,7 +11,7 @@ public class JohnLee_A13
 		double low = 1; // The variable for finding the lowest number in our range
 		double high = 1; // The variable that determines the highest number in our range
 		double mod = 1; // The variable that finds out if the number has Z number of zeros
-		int counter = 0; // This counter stores our answer
+		int counter = 0; // This counter stores our answer.
 		
 		System.out.println("What is the desired number of digits?");
 		D = inp.nextDouble() ;

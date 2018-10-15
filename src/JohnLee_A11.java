@@ -19,7 +19,7 @@ public class JohnLee_A11
 		N = inp.nextDouble() ; // This allows the code to get the user input using the scanner
 		System.out.println("Enter your sequence");
 		
-		double element = 0 ; //This is the variable with the number sequence that will be tested
+		double element = 0 ; //This is the variable with the number sequence that will be tested.
 		
 		if (A<B) // This if statement determines what kind of arithmetic function we must use
 		{

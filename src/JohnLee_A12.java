@@ -10,7 +10,7 @@ public class JohnLee_A12
 		System.out.println("How many sides does the second dice have?");
 		int m = inp.nextInt(); // number of sides on the second dice
 		System.out.println("What is the desired sum?");
-		int s = inp.nextInt(); // the integer that the two sides of the dice must be equal to
+		int s = inp.nextInt(); // the integer that the two sides of the dice must be equal to.
 		
 		int ans = 0; // this is the counter that will count the number of possibilities there are to get the sum to s
 		
