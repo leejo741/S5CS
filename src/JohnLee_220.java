@@ -17,7 +17,8 @@ public class JohnLee_220
 		// print the array
 		print( data, maxSize) ;
 		// sort the array using insertion sort
-		shuffle(data);
+		reverse(data);
+		//shuffle(data);
 		//insertionSort( data) ;
 		// print the sorted array
 		print( data, maxSize) ;
@@ -83,7 +84,7 @@ public class JohnLee_220
 	{
 		for (int i = 0; i < data.length/2; i++)
 		{
-			data[i] = data[data.length - i];
+			data[i] = data[data.length - i - 1]; //DID NOT SWAP
 		}
 	}
 	
