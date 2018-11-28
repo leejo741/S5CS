@@ -1,4 +1,4 @@
-
+import java.util.* ;
 public class JohnLee_241 
 {
 	public static void main(String[] args)
@@ -11,7 +11,7 @@ public class JohnLee_241
 		while( stopFlag == false)	
 		{
 			int choice = menu( name, list);
-			System.out.println( choice + " " + list[choice]);
+			System.out.println( "\n\n" + (choice + 1) + "." + " " + list[choice]);
 			stopFlag = true ;
 		}
 	}
@@ -19,6 +19,16 @@ public class JohnLee_241
 	public static int menu(String title, String[] items)
 	{
 		int choice = -1;
-		return choice ;
+		Scanner kbd = new Scanner( System.in ) ;
+		System.out.println("\n\n" + title) ;
+		System.out.println("=========================") ;
+		for ( int i = 0; i< items.length; i++)
+		{
+			System.out.println("" + (i +1) + ". " + items[i]);
+		}
+		System.out.println("Enter an item number ->") ;
+		
+		choice = kbd.nextInt();
+		return (choice - 1) ;
 	}
 }
