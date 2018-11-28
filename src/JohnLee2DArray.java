@@ -36,4 +36,10 @@ public class JohnLee2DArray
 			System.out.println();
 		}
 	}
+	
+	static public void minmax (int [][] chart)
+	{
+		
+	}
+
 }
