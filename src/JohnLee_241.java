@@ -24,7 +24,7 @@ public class JohnLee_241
 		System.out.println("=========================") ;
 		for ( int i = 0; i< items.length; i++)
 		{
-			System.out.println("" + (i +1) + ". " + items[i]);
+			System.out.println((i +1) + ". " + items[i]);
 		}
 		System.out.println("Enter an item number ->") ;
 		
