@@ -1,9 +1,6 @@
-//intro to 2d arrays
-//int [][] = new int[6][10]; This sets up a two dimensional array with [row][column]
 
-public class JohnLee2DArray 
+public class JohnLee_232 
 {
-	
 	public static void main (String[] args)
 	{
 		int rows = (int)(Math.random()*6+1); //+1 cause cant have zero rows, this gives max 6 rows
@@ -17,13 +14,15 @@ public class JohnLee2DArray
 			
 			for (int col = 0; col < matrix[row].length; col++)
 			{
-				matrix[row][col] = (int)(Math.random()*99) ;
+				matrix[row][col] = (int)(Math.random()*999) ;
 
 			}
 		}
 		print(matrix);
+		
 		System.out.println() ;
-		System.out.println("    " + minmax(matrix));
+		
+		System.out.println("   " + minmax(matrix));
 		
 	}
 	static public void print( int [][] data)
@@ -71,5 +70,4 @@ public class JohnLee2DArray
 		return max;
 		
 	}
-
 }

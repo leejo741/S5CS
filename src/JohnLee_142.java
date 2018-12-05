@@ -19,32 +19,32 @@ public class JohnLee_142
 
 		if (second.compareTo(first) > 0 && third.compareTo(first) > 0 && third.compareTo(second) > 0)
 		{
-			System.out.println("\n"+first + "," + second + "," + third) ;
+			System.out.println("\n"+first + ", " + second + ", " + third) ;
 		}
 
 		if (first.compareTo(second) > 0 && third.compareTo(second) > 0 && third.compareTo(first) > 0)
 		{
-			System.out.println("\n"+second + "," + first + "," + third) ;
+			System.out.println("\n"+second + ", " + first + ", " + third) ;
 		}
 
 		if (second.compareTo(third) > 0 && first.compareTo(second) > 0 && first.compareTo(third) > 0)
 		{
-			System.out.println("\n"+third + "," + second + "," + first) ;
+			System.out.println("\n"+third + ", " + second + ", " + first) ;
 		}
 
 		if (third.compareTo(first) > 0 && second.compareTo(third) > 0 && second.compareTo(first) > 0)
 		{
-			System.out.println("\n"+ first + "," + third + "," + second) ;
+			System.out.println("\n"+ first + ", " + third + ", " + second) ;
 		}
 
 		if (first.compareTo(third) > 0 && second.compareTo(first) > 0 && second.compareTo(third) > 0)
 		{
-			System.out.println("\n"+ third + "," + first + "," + second) ;
+			System.out.println("\n"+ third + ", " + first + ", " + second) ;
 		}
 
 		if (first.compareTo(second) > 0 && first.compareTo(third) > 0 && third.compareTo(second) >0)
 		{
-			System.out.println("\n"+ second + "," + third + "," + first) ;
+			System.out.println("\n"+ second + ", " + third + ", " + first) ;
 		}
 	}
 }
