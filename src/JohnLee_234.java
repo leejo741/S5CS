@@ -4,7 +4,7 @@ public class JohnLee_234
 	public static void main (String[] args)
 	{
 //		int length = (int)(Math.random() *11);
-		int length = 12;
+		int length = 10;
 	
 		int [][] table = new int [length][length] ;
 		for(int row = 0; row < length; row++)
