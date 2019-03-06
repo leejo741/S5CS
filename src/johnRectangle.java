@@ -8,9 +8,10 @@ public class johnRectangle
 		System.out.println ("The width is: " + a.getWidth() );
 		System.out.println ("The area is: " + a.getArea() );
 		System.out.println ("The perimeter is: " + a.getPerimeter() );
+		rectangle.displayAreaFormula();
 	}
 
-	
+
 	
 	
 }
@@ -21,7 +22,10 @@ class rectangle
 	
 	private double width;
 	
-	
+	public static void displayAreaFormula()
+	{
+		System.out.println("\nThe area of a rectangle is length*width.");
+	}
 	public rectangle(double length, double width)
 	{
 		this.length = length;

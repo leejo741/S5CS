@@ -13,6 +13,9 @@ public class TestCircle
 		System.out.println("Circle Area: "+biggie.area() );
 		System.out.println("Circle Circumference: " +biggie.circumference () );
 		
+		Circle.displayAreaFormula();
+		
+		Circle.displayCircumferenceFormula();
 	}
 	
 	
@@ -20,8 +23,20 @@ public class TestCircle
 
 class Circle
 {
-	private double PI = 3.14;
+	private static final double PI = 3.14;
 	private double radius;
+	
+	public static void displayAreaFormula()
+	{
+		System.out.println("\nA circle's area is pi*radius^2");
+			
+	}
+	
+	public static void displayCircumferenceFormula()
+	{
+		System.out.println("A circle's circumference is 2*pi*radius");
+			
+	}
 	
 	public Circle(double size)
 	{
@@ -42,6 +57,8 @@ class Circle
 	{
 		return(2*PI*radius);
 	}
+	
+	
 	
 	
 }
