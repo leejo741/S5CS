@@ -6,6 +6,7 @@ public class johnAPpractice
 		Height sample = new Height(5,16);
 		Height sampleInch = new Height(77);
 		
+		sample.add(12);
 		System.out.println( sample.getFeet() + "'" + sample.getInches() + "\"");
 		System.out.println( sampleInch.getFeet() + "'" + sampleInch.getInches() + "\"");
 	}
@@ -63,6 +64,14 @@ class Height
 		return inches;
 	}
 	
+	public void add(int inches3)
+	{
+		if ( inches3 > 11)
+		{
+			simplify();
+		}
+//		inches = inches + inches3;
+	}
 	public int setFeet(int newFeet)
 	{
 		feet = newFeet;
