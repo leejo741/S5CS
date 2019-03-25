@@ -16,9 +16,7 @@ public class TestCircle
 		Circle.displayAreaFormula();
 		
 		Circle.displayCircumferenceFormula();
-	}
-	
-	
+	}	
 }
 
 class Circle
