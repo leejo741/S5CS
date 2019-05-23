@@ -67,4 +67,10 @@ abstract class gameBooth{
 
 class redBlack extends gameBooth {
 	int colour = (int) ((Math.random())*(2));
+
+	@Override
+	void start() {
+		// TODO Auto-generated method stub
+		
+	}
 }
