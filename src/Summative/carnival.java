@@ -39,6 +39,10 @@ public class carnival {
 			}
 			System.out.println("Playing " + gameChoice) ;
 		}
+		
+		if (selection.equals("P")|| selection.equals("p")) {
+			
+		}
 	
 	}
 }
@@ -66,11 +70,27 @@ abstract class gameBooth{
 }
 
 class redBlack extends gameBooth {
-	int colour = (int) ((Math.random())*(2));
 
-	@Override
-	void start() {
-		// TODO Auto-generated method stub
+	Scanner inp = new Scanner(System.in);
+	
+	this.cost = 1.5;
+	
+	public void start() {
+		
+		for (int k = 0; k < 3; k++) {
+			
+			int colour = (int) ((Math.random())*(2));
+			
+			if (colour == 1) {
+				System.out.println("Black");
+			}
+			if (colour == 2) {
+				System.out.println("Red");
+			}
+			
+		}
 		
 	}
+	
+
 }
